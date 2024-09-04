@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project.csproj", "{DB16F4BF-9EEE-4773-A173-799FE8E3D61C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNetProject", "DNetProject.csproj", "{DB16F4BF-9EEE-4773-A173-799FE8E3D61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunPE", "RunPE\RunPE.csproj", "{39EE8BE9-46FA-4E3A-8C14-1C41662DAFAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunPE", "RunPE\RunPE.csproj", "{39EE8BE9-46FA-4E3A-8C14-1C41662DAFAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assembly", "Assembly", "{894EAB67-3958-41B9-A61E-6F396E25F96D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39EE8BE9-46FA-4E3A-8C14-1C41662DAFAF} = {894EAB67-3958-41B9-A61E-6F396E25F96D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D5FF8AE-C5E6-4DDF-91F4-9ED722A780A1}
