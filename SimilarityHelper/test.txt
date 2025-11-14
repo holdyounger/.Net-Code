@@ -1,0 +1,100 @@
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ25001778-2_2_638743439880376274.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ25001778-2_2_638743439880376274.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ25000651-3_3_638725315131384296.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ25000651-3_3_638725315131384296.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ25000600-1_1_638723755634030664.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ25000600-1_1_638723755634030664.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24024151-2_2_638711455998392033.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24024151-2_2_638711455998392033.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24022960-2_2_638696931328690000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24022960-2_2_638696931328690000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24021820-1_1_638684835155172050.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24021820-1_1_638684835155172050.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24023373-3_3_638701342539264677.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24023373-3_3_638701342539264677.flv 
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24021686-1_1_638682969977186428.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24021686-1_1_638682969977186428.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24021448-1_1_638680435023498352.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24021448-1_1_638680435023498352.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24021631-2_2_638682306024842166.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24021631-2_2_638682306024842166.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24019435-2_2_638648622234440000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24019435-2_2_638648622234440000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24020278-1_1_638663295114370000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24020278-1_1_638663295114370000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23029894-1_1_638384888334640000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23029894-1_1_638384888334640000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ24017602-1_1_638619066053110000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ24017602-1_1_638619066053110000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23029889-3_3_638384868417170000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23029889-3_3_638384868417170000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23028478-3_3_638371290684860001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23028478-3_3_638371290684860001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23026526-1_1_638355737785534001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23026526-1_1_638355737785534001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23022469-2_2_638309868120920000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23022469-2_2_638309868120920000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23023608-2_2_638320952689688001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23023608-2_2_638320952689688001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23022658-2_2_638311445593540000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23022658-2_2_638311445593540000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23022127-3_3_638306320930970003.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23022127-3_3_638306320930970003.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23020582-1_1_638292584967010001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23020582-1_1_638292584967010001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23021897-2_2_638303861782264001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23021897-2_2_638303861782264001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23015203-2_2_638244249826840000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23015203-2_2_638244249826840000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23013523-1_1_638230436785588001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23013523-1_1_638230436785588001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23015117-2_2_638243416806402001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23015117-2_2_638243416806402001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23008425-2_2_638191343055580001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23008425-2_2_638191343055580001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001072-1_1_638094817761970000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001072-1_1_638094817761970000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001072-2_2_638094821436500000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001072-2_2_638094821436500000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001035-3_3_638094652201410000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001035-3_3_638094652201410000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001052-1_1_638094777303570000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001052-1_1_638094777303570000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001033-1_1_638094641911080000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001033-1_1_638094641911080000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001030-3_3_638094627360860000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001030-3_3_638094627360860000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\HNT_HNT_HQ23001006-1_1_638094711629690000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\HNT_HNT_HQ23001006-1_1_638094711629690000.flv 
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH24003032-1_1_638632016179670000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH24003032-1_1_638632016179670000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH24003331-1_1_638655528819258471.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH24003331-1_1_638655528819258471.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH24003327-2_2_638652948059328760.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH24003327-2_2_638652948059328760.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GYC_G01_GL22000169-2_2_637815647577600000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GYC_G01_GL22000169-2_2_637815647577600000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GYC_G01_GL23000056-1_1_638094680384377342.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GYC_G01_GL23000056-1_1_638094680384377342.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GLJ_GLJ_JY23002153-2_2_638342509228076386.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GLJ_GLJ_JY23002153-2_2_638342509228076386.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23004696-3_3_638341705907400000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23004696-3_3_638341705907400000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23000105-2_2_638094701005550000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23000105-2_2_638094701005550000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23000105-3_3_638094704080440000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23000105-3_3_638094704080440000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23000104-2_2_638094691411780000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23000104-2_2_638094691411780000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23002788-2_2_638236502761574003.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23002788-2_2_638236502761574003.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23000105-1_1_638094698256560000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23000105-1_1_638094698256560000.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23004204-1_1_638322690734904001.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23004204-1_1_638322690734904001.flv 
+D:\videoserver\web\ffmpeg\ffmpeg.exe -i D:\sp\GHJ_H07_GH23000104-3_3_638094694162760000.mp4 -vcodec copy -acodec copy D:\videoserver\web\videos\GHJ_H07_GH23000104-3_3_638094694162760000.flv 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+getmac /v 
+C:\Windows\system32\cmd.exe  
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+getmac /v 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select memcardno,changeamt,busno from u_memcard_reg(nolock) where memcardno = '13624836726' if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select memcardno,changeamt,busno from u_memcard_reg(nolock) where memcardno = '13624836726' if @@trancount > 0 commit 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\GraspHHERPH3\Program\GraspData\HHCert\openssl.exe  
+D:\inetpub\wwwroot\SOLIDWORKSPDM\Web2\lib\OutsideInWebView\OILink.exe  
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select '储值:'+ cast( cast(cardbalance as numeric(16,2) )  as varchar(80) ) + ''  from u_bankcard_base (nolock) where bankcardno = '15148219011' if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select b.descr from u_memcard_reg a join c_dddw b on a.cardtype=b.dddwlist where b.dddwno = '232' and a.memcardno='15148219011' if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select memcardno,isnull(handset,'') from u_memcard_reg(nolock) where memcardno = '15148219011' if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select IsNull(changeamt,0)  from u_memcard_reg (nolock) where memcardno = '15148219011'  if @@trancount > 0 commit 
+D:\传输3.1.6版服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select TOP 1 amt,min_saleamt,case when isnull(ifSpecial,0)=1 then '是' else '否' end ,msgno from d_memcard_msg where flag2 = 1  and status = 0 and amt>0 and CONVERT(VARCHAR(10),invalidate,120)>=CONVERT(VARCHAR(10),GETDATE(),120)   and CONVERT(VARCHAR(10), isnull(startdate,'1990-01-01'), 120)<=CONVERT(VARCHAR(10),GETDATE(),120) and memcardno =  '2304170000013' and flag2 = 1  and (  isnull(usebusno,'%') like '%008%' or isnull(usebusno,'ALL')='ALL' or isnull(usebusno,'ALL')='全部') if @@trancount > 0 commit 
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\传输3.1.6版服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select TOP 1 amt,min_saleamt,case when isnull(ifSpecial,0)=1 then '是' else '否' end ,msgno from d_memcard_msg where flag2 = 1  and status = 0 and amt>0 and CONVERT(VARCHAR(10),invalidate,120)>=CONVERT(VARCHAR(10),GETDATE(),120)   and CONVERT(VARCHAR(10), isnull(startdate,'1990-01-01'), 120)<=CONVERT(VARCHAR(10),GETDATE(),120) and memcardno =  '13430907215' and flag2 = 1  and (  isnull(usebusno,'%') like '%020%' or isnull(usebusno,'ALL')='ALL' or isnull(usebusno,'ALL')='全部') if @@trancount > 0 commit 
+D:\hydee\hydeews_3.1.9\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select cardbalance  from u_bankcard_base where isnull(bankcardno,'') <> '' and bankcardno = '18346403606' if @@trancount > 0 commit 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\GraspHHERP\Program\GraspData\HHCert\openssl.exe  
+C:\Windows\system32\cmd.exe  
+D:\GraspHHERPH3\Program\GraspData\HHCert\openssl.exe  
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+getmac /v 
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\传输3.1.6版服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select TOP 1 amt,min_saleamt,case when isnull(ifSpecial,0)=1 then '是' else '否' end ,msgno from d_memcard_msg where flag2 = 1  and status = 0 and amt>0 and CONVERT(VARCHAR(10),invalidate,120)>=CONVERT(VARCHAR(10),GETDATE(),120)   and CONVERT(VARCHAR(10), isnull(startdate,'1990-01-01'), 120)<=CONVERT(VARCHAR(10),GETDATE(),120) and memcardno =  '13875403547' and flag2 = 1  and (  isnull(usebusno,'%') like '%021%' or isnull(usebusno,'ALL')='ALL' or isnull(usebusno,'ALL')='全部') if @@trancount > 0 commit 
+getmac /v 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+C:\Windows\system32\cmd.exe  
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select b.descr from u_memcard_reg a join c_dddw b on a.cardtype=b.dddwlist where b.dddwno = '232' and a.memcardno='13624836726' if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select '储值:'+ cast( cast(cardbalance as numeric(16,2) )  as varchar(80) ) + ''  from u_bankcard_base (nolock) where bankcardno = '13624836726' if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select IsNull(changeamt,0)  from u_memcard_reg (nolock) where memcardno = '13624836726'  if @@trancount > 0 commit 
+D:\3.1.9传输服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select memcardno,isnull(handset,'') from u_memcard_reg(nolock) where memcardno = '13624836726' if @@trancount > 0 commit 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+wmic path win32_battery get EstimatedChargeRemaining /format:list 
+wmic /namespace:\root\wmi path MSAcpi_ThermalZoneTemperature get CurrentTemperature /format:list 
+C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\bin\pg_ctl.exe  --pgdata "C:\Program Files\AdminDroid\Office 365 Reporter\pgsql\data" -w -o "-F -p 40000" start 
+D:\Program Files\KMTech\WebSale_zhj\WebShop\protect\ser_install.bat  
+D:\海典\传输3.1.4版服务端\sqlcmd.exe  -x -k1 -Q "  SET IMPLICIT_TRANSACTIONS ON set nocount on SET XACT_ABORT ON  set quoted_identifier off set ansi_warnings off select dbo.f_get_orgname(busno) as 业务机构,sum(sumqty) as 数量 from u_store_m   where   wareid = '031415'   group by busno  if @@trancount > 0 commit 
+D:\GraspHHERPH5\Program\GraspData\HHCert\openssl.exe  
