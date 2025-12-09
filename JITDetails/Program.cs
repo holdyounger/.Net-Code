@@ -2,10 +2,78 @@
 using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.InteropServices;
+
+// All flags in the MethodDesc now reside in a single 16-bit field.
+
+enum MethodDescClassification
+{
+    // Method is IL, FCall etc., see MethodClassification above.
+    mdcClassification = 0x0007,
+    mdcClassificationCount = mdcClassification + 1,
+
+    // Note that layout of code:MethodDesc::s_ClassificationSizeTable depends on the exact values 
+    // of mdcHasNonVtableSlot and mdcMethodImpl
+
+    // Has local slot (vs. has real slot in MethodTable)
+    mdcHasNonVtableSlot = 0x0008,
+
+    // Method is a body for a method impl (MI_MethodDesc, MI_NDirectMethodDesc, etc)
+    // where the function explicitly implements IInterface.foo() instead of foo().
+    mdcMethodImpl = 0x0010,
+
+    // Method is static
+    mdcStatic = 0x0020,
+
+    // Temporary Security Interception.
+    // Methods can now be intercepted by security. An intercepted method behaves
+    // like it was an interpreted method. The Prestub at the top of the method desc
+    // is replaced by an interception stub. Therefore, no back patching will occur.
+    // We picked this approach to minimize the number variations given IL and native
+    // code with edit and continue. E&C will need to find the real intercepted method
+    // and if it is intercepted change the real stub. If E&C is enabled then there
+    // is no back patching and needs to fix the pre-stub.
+    mdcIntercepted = 0x0040,
+
+    // Method requires linktime security checks.
+    mdcRequiresLinktimeCheck = 0x0080,
+
+    // Method requires inheritance security checks.
+    // If this bit is set, then this method demands inheritance permissions
+    // or a method that this method overrides demands inheritance permissions
+    // or both.
+    mdcRequiresInheritanceCheck = 0x0100,
+
+    // The method that this method overrides requires an inheritance security check.
+    // This bit is used as an optimization to avoid looking up overridden methods
+    // during the inheritance check.
+    mdcParentRequiresInheritanceCheck = 0x0200,
+
+    // Duplicate method. When a method needs to be placed in multiple slots in the
+    // method table, because it could not be packed into one slot. For eg, a method
+    // providing implementation for two interfaces, MethodImpl, etc
+    mdcDuplicate = 0x0400,
+
+    // Has this method been verified?
+    mdcVerifiedState = 0x0800,
+
+    // Is the method verifiable? It needs to be verified first to determine this
+    mdcVerifiable = 0x1000,
+
+    // Is this method ineligible for inlining?
+    mdcNotInline = 0x2000,
+
+    // Is the method synchronized
+    mdcSynchronized = 0x4000,
+
+    // Does the method's slot number require all 16 bits
+    mdcRequiresFullSlotNumber = 0x8000
+};
 public interface MyInterface1
 {
     void Method1();
     void Method2();
+
+
 }
 public interface MyInterface2
 {
@@ -20,6 +88,12 @@ class MyClass : MyInterface1, MyInterface2
     {
         Console.WriteLine("Method1");
     }
+
+    private bool Method4()
+    {
+        return true;
+    }
+
     public void Method2()
     {
         Console.WriteLine("Method2");
@@ -29,6 +103,15 @@ class MyClass : MyInterface1, MyInterface2
         Console.WriteLine("Method3");
     }
 }
+
+class ReflectionTest
+{
+    private bool Method_Private()
+    {
+        return true;
+    }
+}
+
 class Program1
 {
     static void Main()
@@ -40,7 +123,8 @@ class Program1
         uint j = MyClass.ui;
         mc.Method1();
 
-        MethodInfo OldMethod = Assembly.GetExecutingAssembly().GetType("MyClass").GetMethod("Method1");
+        Type type = typeof(ReflectionTest);
+        MethodInfo OldMethod = type.GetMethod("Method_Private");
         IntPtr OldFunPtr = OldMethod.MethodHandle.GetFunctionPointer();
         Console.WriteLine($"Method1's MethodHandle:0x{OldFunPtr.ToString("x")}");
         Console.WriteLine($"Environment.Is64BitProcess's value:{Environment.Is64BitProcess}");
