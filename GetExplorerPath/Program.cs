@@ -15,6 +15,14 @@ class Program
     }
     static void Main()
     {
+        bool skipReport = false;
+        string content = "696";
+        long contentLen = content?.Length ?? 0;
+        if (contentLen < 1024)
+            skipReport = true;
+        else
+            skipReport = false;
+
         createProcess();
 
         dynamic shell = Activator.CreateInstance(Type.GetTypeFromProgID("Shell.Application"));
