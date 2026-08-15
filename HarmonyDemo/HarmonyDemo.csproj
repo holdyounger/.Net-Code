@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HarmonyDemo</RootNamespace>
+    <AssemblyName>HarmonyDemo</AssemblyName>
+  </PropertyGroup>
+
+  <!--
+    Lib.Harmony NuGet 包（推荐方式）
+    - 所有第三方依赖（Mono.Cecil 等）已合并，无需额外引入
+    - 支持 .NET Framework 3.5+ / .NET Standard 2.0+ / .NET 5.0+
+    - 另一种选择是 Lib.Harmony.Thin（不合并依赖，需要自行提供 Mono.Cecil）
+  -->
+  <ItemGroup>
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+  </ItemGroup>
+
+  <!-- 强制使用官方 NuGet 源（解决企业内网源不通的问题） -->
+  <PropertyGroup>
+    <RestoreSources>https://api.nuget.org/v3/index.json;https://www.nuget.org/api/v2/</RestoreSources>
+  </PropertyGroup>
+
+</Project>
