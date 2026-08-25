@@ -1,10 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFrameworks>net9.0;net48</TargetFrameworks>
     <Nullable>disable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <PlatformTarget>x64</PlatformTarget>
+    <!--
+      net9.0 (CoreCLR) 解析依赖 x64 的 rip-relative precode 布局，默认 x64。
+      net48 (.NET Framework) 支持 x86 / x64，默认 AnyCPU，可用 -p:PlatformTarget=x86 构建 32 位版。
+    -->
+    <PlatformTarget Condition="'$(TargetFramework)' == 'net9.0'">x64</PlatformTarget>
+    <PlatformTarget Condition="'$(TargetFramework)' != 'net9.0'">AnyCPU</PlatformTarget>
     <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Platforms>AnyCPU;x86</Platforms>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 </Project>
